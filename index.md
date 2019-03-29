@@ -10,6 +10,5 @@ This class will give hands on experience with programming multicore processors, 
 
 ### Course Assitants
 
-William Jen
-
+William Jen\
 [Chenzhuo Zhu](http://stanford.edu/~czhu95/)
