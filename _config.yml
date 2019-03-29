@@ -1,5 +1,5 @@
 # Site settings
-title: CME 213: Introduction to parallel computing using MPI, openMP, and CUDA
+title: "CME 213: Introduction to parallel computing using MPI, openMP, and CUDA"
 email: darve@stanford.edu
 description: "Course materials and notes for Stanford class CME 213, Introduction to parallel computing using MPI, openMP, and CUDA"
 baseurl: ""
