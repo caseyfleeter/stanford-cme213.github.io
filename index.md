@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## CME 213: Introduction to parallel computing using MPI, openMP, and CUDA
 
-You can use the [editor on GitHub](https://github.com/stanford-cme213-2019/stanford-cme213-2019.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This class will give hands on experience with programming multicore processors, graphics processing units (GPU), and parallel computers. Focus will be on the message passing interface (MPI, parallel clusters) and the compute unified device architecture (CUDA, GPU). Topics will include: network topologies, modeling communication times, collective communication operations, parallel efficiency, MPI, dense linear algebra using MPI. Symmetric multiprocessing (SMP), pthreads, openMP. CUDA, combining MPI and CUDA, dense linear algebra using CUDA, sort, reduce and scan using CUDA. Pre-requisites include: C programming language and numerical algorithms (solution of differential equations, linear algebra, Fourier transforms).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Time/Location
 
-### Markdown
+### Instructor
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Eric Darv](https://me.stanford.edu/people/eric-darve)
 
-```markdown
-Syntax highlighted code block
+### Course Assitants
 
-# Header 1
-## Header 2
-### Header 3
+William Jen
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stanford-cme213-2019/stanford-cme213-2019.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Chenzhuo Zhu](http://stanford.edu/~czhu95/)
