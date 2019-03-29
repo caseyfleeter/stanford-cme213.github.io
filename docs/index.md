@@ -7,5 +7,5 @@ This class will give hands on experience with programming multicore processors, 
 
 Location:  
 Time:  
-Instructor: [Eric Darv](https://me.stanford.edu/people/eric-darve)  
+Instructor: [Eric Darve](https://me.stanford.edu/people/eric-darve)  
 Course Assistants: William Jen, [Chenzhuo Zhu](http://stanford.edu/~czhu95/)
