@@ -5,5 +5,7 @@ description: "Course materials and notes for Stanford class CME 213, Spring 2019
 baseurl: ""
 url: "https://stanford-cme213.github.io"
 github_username: stanford-cme213
+github:
+    piazza_url: https://piazza.com/class/jtxlvzrxocb7fy
 
 theme: jekyll-theme-cayman
