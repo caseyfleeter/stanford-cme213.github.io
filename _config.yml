@@ -7,5 +7,6 @@ url: "https://stanford-cme213.github.io"
 github_username: stanford-cme213
 github:
     piazza_url: https://piazza.com/class/jtxlvzrxocb7fy
+    gradescope_url: https://www.gradescope.com/courses/46602
 
 theme: jekyll-theme-cayman
