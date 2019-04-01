@@ -123,5 +123,3 @@ description: Detailed class schedule
 
 #### Sunday June 9
 * Projects are due, deadline: 11PM
-* Final exam schedule: Friday June 8 3:30–6:30 PM
-

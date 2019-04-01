@@ -48,5 +48,4 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 | 9             | Fri, May 31          | -                                  | Project interim report due        |
 | 10            | Mon, June 3          | Parallel efficiency                |                                   |
 | 10            | Wed, June 5          | AlphaGo                            |                                   |
-| 10            | Fri, June 8          | -                                  | Final exam                        |
 | 10            | Sun, June 9          | -                                  | Final project due                 |
