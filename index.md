@@ -19,6 +19,15 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * Instructor: [Eric Darve](https://me.stanford.edu/people/eric-darve)  
 * Course Assistants: William Jen, [Chenzhuo Zhu](http://stanford.edu/~czhu95/)
 
+### Reading and links
+
+* [C++ reference](https://en.cppreference.com/w/cpp)
+* [LLNL tutorial on Pthreads](https://computing.llnl.gov/tutorials/pthreads/)
+* [C++ threads](http://www.cplusplus.com/reference/thread/thread/)
+* [Simple examples of C++ multithreading](https://www.geeksforgeeks.org/multithreading-in-cpp/)
+* [CUDA C Programming Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
+* [CUDA C Best Practices Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf)
+
 ### Course Schedule
 
 [See detailed schedule](./schedule.html)
