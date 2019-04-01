@@ -7,10 +7,9 @@ Welcome to CME 213!
 
 This class will give hands on experience with programming multicore processors, graphics processing units (GPU), and parallel computers. Focus will be on the message passing interface (MPI, parallel clusters) and the compute unified device architecture (CUDA, GPU).  
 
-Topics will include: network topologies, modeling communication times, collective communication operations, parallel efficiency, MPI, dense linear algebra using MPI. Symmetric multiprocessing (SMP), pthreads, openMP. CUDA, combining MPI and CUDA, dense linear algebra using CUDA, sort, reduce and scan using CUDA.
+Topics will include: network topologies, modeling communication times, collective communication operations, parallel efficiency, MPI, dense linear algebra using MPI. Symmetric multiprocessing (SMP), Pthreads, openMP. CUDA, combining MPI and CUDA, dense linear algebra using CUDA, sort, reduce and scan using CUDA.
 
 Pre-requisites include: C programming language and numerical algorithms (solution of differential equations, linear algebra, Fourier transforms).
-
 
 ### Basic Info
 
@@ -26,6 +25,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [LLNL tutorial on Pthreads](https://computing.llnl.gov/tutorials/pthreads/)
 * [C++ threads](http://www.cplusplus.com/reference/thread/thread/)
 * [Simple examples of C++ multithreading](https://www.geeksforgeeks.org/multithreading-in-cpp/)
+* [CUDA Programming Guides and References](http://docs.nvidia.com/cuda/index.html)
 * [CUDA C Programming Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
 * [CUDA C Best Practices Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf)
 
