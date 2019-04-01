@@ -18,6 +18,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * Lectures: Mon/Wed/Fri 3:00-4:20pm  
 * Instructor: [Eric Darve](https://me.stanford.edu/people/eric-darve)  
 * Course Assistants: William Jen, [Chenzhuo Zhu](http://stanford.edu/~czhu95/)
+* [Syllabus](CME 213 Syllabus.pdf)
 
 ### Reading and links
 
