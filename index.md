@@ -27,7 +27,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Homework
 
-* [Homework 1](Homework/hw1.pdf) [Code](Homework/code_hw1.zip)
+* [Homework 1](Homework/hw1.pdf) and [starter code](Homework/code_hw1.zip)
 
 ### Reading and links
 
