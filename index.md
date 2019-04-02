@@ -14,10 +14,16 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 ### Basic Info
 
 * Location: [Building 300, Room 300](http://campus-map.stanford.edu/?id=300-300)  
-* Lectures: Mon/Wed/Fri 3:00-4:20pm  
+* Lectures: Mon/Wed/Fri 3:00-4:20PM
 * Instructor: [Eric Darve](https://me.stanford.edu/people/eric-darve)  
 * Course Assistants: William Jen, [Chenzhuo Zhu](http://stanford.edu/~czhu95/)
 * [Syllabus](CME 213 Syllabus.pdf)
+
+### Office Hours
+
+* Monday 7-9PM; TA led; Huang basement
+* Tuesday 7-9PM; TA led; Huang basement
+* Friday 9-11AM; Instructor; bldg 520, room 125
 
 ### Reading and links
 
