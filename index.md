@@ -45,7 +45,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Computer code
 
-* [C++ standard library and lambda functions](Code/ex1_transform.cpp); [solution](Code/ex1_transform_solution.cpp) 
+* [C++ standard library and lambda functions](Code/ex1_transform.cpp) and [solution](Code/ex1_transform_solution.cpp) 
 
 ### Course Schedule
 
