@@ -14,7 +14,7 @@ description: Detailed class schedule
 * Why we need parallelism; example of parallel program: summing up numbers
 * Shared memory and multicore processors
 * Introduction to Pthreads; creating and joining threads
-* Pre-requisite homework out
+* Homework 1 out
 
 ### Week 2
 ---
@@ -26,8 +26,8 @@ description: Detailed class schedule
 #### Wednesday April 10
 * OpenMP; introduction; parallel regions
 * Parallel for loops; matrix multiplication; sections; tasks; taskwait; using tasks for tree traversal and list traversal
-* Pre-requisite homework due
-* Homework 1 out
+* Homework 1 due
+* Homework 2 out
 
 ### Week 3
 ---
@@ -39,13 +39,13 @@ description: Detailed class schedule
 
 #### Friday April 19
 * Colfax lecture 2
-* Homework 2 out
+* Homework 3 out
 
 ### Week 4
 ---
 #### Monday April 22
 * CUDA introduction; moving data between CPU and GPU memory; execution of a skeleton CUDA code (malloc, memcpy, kernel); threading model, basic commands, simple example programs
-* Homework 1 due
+* Homework 2 due
 
 #### Wednesday April 24
 * Threads, warps, blocks; execution model for a kernel; resident blocks; executing an instruction for a warp; synchronizations between threads; SIMT model
@@ -60,8 +60,8 @@ description: Detailed class schedule
 
 #### Wednesday May 1
 * Lecture on homework 3; finite-difference stencil; algorithm based on global memory; loop over y to increase data-reuse and arithmetic intensity; shared memory algorithm
-* Homework 2 due
-* Homework 3 out
+* Homework 3 due
+* Homework 4 out
 
 ### Week 6
 ---
@@ -71,8 +71,8 @@ description: Detailed class schedule
 
 #### Wednesday May 8
 * Discussion of Thrust; segmented algorithms; examples of problems that can be broken into Thrust algorithms; lambda functions and placeholders
-* Homework 3 due
-* Homework 4 out
+* Homework 4 due
+* Homework 5 out
 
 #### Friday May 10
 * Lecture on the final project
@@ -93,7 +93,7 @@ description: Detailed class schedule
 
 #### Wednesday May 22
 * Message passing; introduction; MPI; collective communications; collective communications for final project
-* Homework 4 due
+* Homework 5 due
 
 #### Friday May 24
 * Point-to-point communication; Deadlocks; ring communication; blocking vs. non-blocking; sample sort

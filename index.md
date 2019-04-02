@@ -49,28 +49,30 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Course Schedule
 
+The course schedule is tentative and will be updated throughout the quarter.
+
 [See detailed schedule](./schedule.html)
 
 | Week          | Date                 | Topics                             | Homework/Project/Exam             |
 | :-----------: | -------------------- | ------                             | ----------------                  |
 | 1             | Mon, April 1         | Introduction and syllabus          |                                   |
-| 1             | Wed, April 3         | Parallelism, Pthreads              | Pre-requisite HW out              |
+| 1             | Wed, April 3         | Parallelism, Pthreads              | HW1 out              |
 | 2             | Mon, April 8         | Synchronization                    |                                   |
-| 2             | Wed, April 10        | OpenMP 1                           | Pre-requisite HW due <br> HW1 out |
+| 2             | Wed, April 10        | OpenMP 1                           | HW1 due <br> HW2 out |
 | 3             | Mon, April 15        | OpenMP 2                           |                                   |
 | 3             | Wed, April 17        | Colfax 1                           |                                   |
-| 3             | Fri, April 19        | Colfax 2                           | HW2 out                           |
-| 4             | Mon, April 22        | CUDA 1                             | HW1 due                           |
+| 3             | Fri, April 19        | Colfax 2                           | HW3 out                           |
+| 4             | Mon, April 22        | CUDA 1                             | HW2 due                           |
 | 4             | Wed, April 24        | CUDA 2                             |                                   |
 | 5             | Mon, April 29        | CUDA 3, matrix transpose           |                                   |
-| 5             | Wed, May 1           | Lecture on homework 3              | HW3 out <br> HW2 due              |
+| 5             | Wed, May 1           | Lecture on homework 3              | HW4 out <br> HW3 due              |
 | 6             | Mon, May 6           | Reduction                          |                                   |
-| 6             | Wed, May 8           | Thrust                             | HW4 out <br> HW3 due              |
+| 6             | Wed, May 8           | Thrust                             | HW5 out <br> HW4 due              |
 | 6             | Fri, May 10          | Lecture on final project           | Final project out                 |
 | 7             | Mon, May 13          | OpenACC by NVIDIA                  |                                   |
 | 7             | Wed, May 15          | CUDA optimization by NVIDIA        |                                   |
 | 8             | Mon, May 20          | NVVP by NVIDIA                     |                                   |
-| 8             | Wed, May 22          | Point-to-point communication       | HW4 due                           |
+| 8             | Wed, May 22          | Point-to-point communication       | HW5 due                           |
 | 9             | Mon, May 27          | ---Memorial Day---                 |                                   |
 | 9             | Wed, May 29          | Groups, communicators and topology |                                   |
 | 9             | Fri, May 31          | -                                  | Project interim report due        |
