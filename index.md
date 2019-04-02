@@ -31,7 +31,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Lecture notes
 
-* [Syllabus](Lecture Notes/Lecture_01.pdf)
+* [Introduction and syllabus](Lecture Notes/Lecture_01.pdf)
 
 ### Computer code
 
