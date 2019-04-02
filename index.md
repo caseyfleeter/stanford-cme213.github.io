@@ -70,7 +70,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 | 7             | Mon, May 13          | OpenACC by NVIDIA                  |                                   |
 | 7             | Wed, May 15          | CUDA optimization by NVIDIA        |                                   |
 | 8             | Mon, May 20          | NVVP by NVIDIA                     |                                   |
-| 8             | Wed, May 22          | Point-to-point communication       |                                   |
+| 8             | Wed, May 22          | Point-to-point communication       | HW4 due                           |
 | 9             | Mon, May 27          | ---Memorial Day---                 |                                   |
 | 9             | Wed, May 29          | Groups, communicators and topology |                                   |
 | 9             | Fri, May 31          | -                                  | Project interim report due        |
