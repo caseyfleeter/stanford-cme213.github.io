@@ -25,6 +25,10 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * Tuesday 7-9PM; TA led; Huang basement
 * Friday 9-11AM; Instructor; bldg 520, room 125
 
+### Homework
+
+* [Homework 1](Homework/hw1.pdf) [Code](Homework/code_hw1.zip)
+
 ### Reading and links
 
 * [C++ reference](https://en.cppreference.com/w/cpp)
