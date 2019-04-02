@@ -29,6 +29,14 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [CUDA C Programming Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
 * [CUDA C Best Practices Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf)
 
+### Lecture notes
+
+* [Syllabus](Lecture Notes/Lecture_01.pdf)
+
+### Computer code
+
+* [C++ standard library and lambda functions](Code/ex1_transform.cpp); [solution](Code/ex1_transform_solution.cpp) 
+
 ### Course Schedule
 
 [See detailed schedule](./schedule.html)
