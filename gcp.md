@@ -17,7 +17,7 @@ Google and Piazza are always helpful.
 ### Create a new project named cme-213 (or any name you prefer)
 
 You can create and manage your GCP projects on the [Resource Management Page](https://console.cloud.google.com/cloud-resource-manager).
-### [hw3 and after] Apply for GPU quotas
+### [hw3 and after] Request GPU quotas
 
 You can request GPU quotas on the [Quotas Page](https://console.cloud.google.com/iam-admin/quotas).
 See [guide](https://cloud.google.com/compute/quotas) provided by Google if you run into any difficulties.
@@ -141,3 +141,29 @@ Here we provide a table of specs for each type of virtual machine used for homew
 | HW2       | 8         | 7.2GB      | 10GB        | -           | -          | $0.199      |
 
 
+## Remote Editor
+---
+It is cumbersome to edit locally and run remotely, if you are not comfortable with command-line editors like `vim` or `emacs`. Typically you would have to manually sync between your local copy and the remote one.
+
+We manage to find this VS Code extension that can help you edit your remote files locally on VS Code. Here we provide a brief tutorial on how to setup your remote editor. It is **not required** to use VS Code for course homework or project.
+
+### Download VS Code and install Remote VSCode extension
+
+VS Code can be downloaded from VS Code's [Official Website](https://code.visualstudio.com/), and Remote VSCode extension is [here](https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode). Installation should be straightforward.
+
+### Start VS Code server
+
+1. Open VS Code.
+2. Start the server in the command palette - Press `F1` and type `Remote: Start server`, and press `ENTER` to start the server. You may see a Starting server at the status bar in the bottom.
+
+### Open a remote file
+
+1. Make sure your VS Code server is running.
+2. Start a terminal.
+3. Connect to your VM with: `gcloud compute ssh NAME --ssh-flag="-R 52698:localhost:52698"`
+4. Run `rmate FILENAME` on your VM, where `FILENAME` is path to the file you want to edit.
+5. Find your remote file opened in VS Code.
+
+Note:
+* You can repeat step 4 to open multiple files concurrently.
+* Make sure to save and close your file before disconnecting your VM.
