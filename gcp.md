@@ -35,7 +35,7 @@ Google Cloud SDK (`gcloud`) is a software package that allows you to manage your
 We are going to use `gcloud` to run scripts that will create the correct virtual machines for you.
 
 `gcloud` can be installed on a variety of operating systems including macOS and Windows.  
-Installation precedures can be found [here](https://cloud.google.com/sdk/docs/downloads-interactive).
+Installation procedures can be found [here](https://cloud.google.com/sdk/docs/downloads-interactive).
 
 ## Manage virtual machine
 ---
