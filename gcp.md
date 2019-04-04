@@ -118,8 +118,8 @@ To transfer from your VM:
 1. Start a terminal
 2. Run `gcloud compute scp NAME:VM_PATH LOCAL_PATH`, where `VM_PATH` is the path of file on your VM and  `LOCAL_PATH` is the local destination
 
-You can use `-r` flag to transfer a directory. For example:  
-`gcloud compute scp -r ./starter_code hw2:~/`  
+You can use `--recurse` flag to transfer a directory. For example:  
+`gcloud compute scp --recurse ./starter_code hw2:~/`  
 will transfer the local `starter_code` folder to your hw2 virtual machine.
 
 
