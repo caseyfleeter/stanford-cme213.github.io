@@ -27,7 +27,7 @@ Two types of quotas are needed throughout the course:
 * `Nvidia K80 GPUs` at location `us-west1`
 
 You will need at least 4 for both quotas. You will not be charged for requesting quotas.
-It can take upto 48 hours to process your request, so we suggest requesting your quotas as early as possible.
+It can take up to 48 hours to process your request, so we suggest requesting your quotas as early as possible.
 
 ## Install Google Cloud SDK on your local machine
 ---
@@ -37,12 +37,12 @@ We are going to use `gcloud` to run scripts that will create the correct virtual
 `gcloud` can be installed on a variety of operating systems including macOS and Windows.  
 Installation precedures can be found [here](https://cloud.google.com/sdk/docs/downloads-interactive).
 
-## Manage virtual machine for each homework and project
+## Manage virtual machine
 ---
 
 You should use separate virtual machines for different homework and project. Environment is setup for each virtual machine by the script we provide.
 
-### Create virtual machine
+### Create your virtual machine
 1. Start a terminal
 2. `cd` to your starter code directory 
 3. Run `./create_vm.sh`
@@ -99,7 +99,7 @@ To stop your virtual machine
 or through [Compute Page](https://console.cloud.google.com/compute/).
 
 ### Delete your virtual machine
-Your don't usually need to delete virtual machines. You only need to stop them. However if you mess things up you can always start over by deleting and recreating your virtual machine.
+Your don't usually need to delete virtual machines --- you only need to stop them. However if you mess things up you can always start over by deleting and recreating your virtual machine.
 
 To delete your virtual machine
 1. Start a terminal
@@ -124,8 +124,8 @@ will transfer the local `starter_code` folder to your hw2 virtual machine.
 
 
 ### Other helpful commands
-`gcloud` is powerful and allows you to do anything on your cloud platform. Here are some useful ones:
-* `gcloud compute instances list NAME` will list all of your VMs
+`gcloud` is powerful and allows you to do about anything about your cloud platform. Here are some useful commands:
+* `gcloud compute instances list` will list all of your VMs
 * `gcloud compute instances reset NAME` will reset your VM (should be equivalent as delete then create)
 * `gcloud compute --help` will show help for `gcloud compute`
 
