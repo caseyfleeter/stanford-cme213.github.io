@@ -44,6 +44,10 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [Introduction and syllabus](Lecture Notes/Lecture_01.pdf)
 * [Parallel computing, threads](Lecture Notes/Lecture_02.pdf)
 
+### Tutorial notes
+
+* [C++ Refresher Session](Tutorial Notes/Tutorial_01.pdf) and [code](Tutorial Notes/code.zip)
+
 ### Computer code
 
 * [C++ standard library and lambda functions](Code/ex1_transform.cpp), and [solution](Code/ex1_transform_solution.cpp) 
