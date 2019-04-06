@@ -18,26 +18,37 @@ Google and Piazza are always helpful.
 
 You can create and manage your GCP projects on the [Resource Management Page](https://console.cloud.google.com/cloud-resource-manager).
 
+Click on "CREATE PROJECT" at the top:
+
+![](gcp/project.png)
+
+Do not click on `Manage Quotas`. Enter a project name and click `Create`.
+
 ### [hw3 and after] Request GPU quotas
-Google Cloud Platform requires you to request GPU quotas before you can create virtual machines with GPUs. Quota requests have to be done
-through the [Quotas Page](https://console.cloud.google.com/iam-admin/quotas).
 
-You need two types of quotas throughout the course:
+This step is not needed for hw1 and hw2, but is required to be able to reserve GPUs. To use GPUs, Google Cloud Platform requires you to request **GPU quotas**. Quota requests have to be done through the [quota page](https://console.cloud.google.com/iam-admin/quotas).
+
+You need two types of quotas for this the course:
 * `GPUs (all regions)`
-* `NVIDIA K80 GPUs` at location `us-west1`
-and you need at least 4 for both of them.
+* `NVIDIA K80 GPUs` at location `us-west1` and you need at least **4** for both of them.
 
-To request GPU quotas:
+You have ~ 770 different quotas. To help you find the correct ones, click on Metric from the [quota page](https://console.cloud.google.com/iam-admin/quotas):
+
+![](gcp/metric.png)
+
+then select `None` and in the search bar enter `GPU`. Check <br>`GPUs (all regions)` and `NVIDIA K80 GPUs`.
+
+Then, click on the drop-down box under `Location` and select <br>`Global` and `us-west1`.
+
+You will find the two quotas needed for the course appearing on the page. Select both of them. Make sure you have the right ones!
+
+You should get this:
+
 ![quota](/gcp/quota.png)
-1. Go to [Quotas Page](https://console.cloud.google.com/iam-admin/quotas) (picture above).
-2. Click on the drop-down box under `Metric` and type "GPU" in the search bar. Check <br> `GPUs (all regions)` and `NVIDIA K80 GPUs`.
-3. Click on the drop-down box under `Location` and check `Global` and `us-west1`.
-4. You will find the two quotas needed for the course appearing on the page. Check both of them.
-5. Click `EDIT QUOTAS` button on top of the page.
-6. Fill the quota request form to request at least 4 quotas for both items.
 
-You will not be charged for requesting quotas.
-It can take up to 48 hours to process your request, so we suggest requesting your quotas as early as possible.
+Click `EDIT QUOTAS` button on top of the page. Fill the quota request form to request at least 4 quotas for both items.
+
+You will not be charged for requesting quotas. It can take up to 48 hours to process your request, so we suggest requesting your quotas as early as possible.
 
 ## Install Google Cloud SDK on your local machine
 ---
