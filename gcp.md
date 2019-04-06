@@ -17,16 +17,25 @@ Google and Piazza are always helpful.
 ### Create a new project named cme-213 (or any name you prefer)
 
 You can create and manage your GCP projects on the [Resource Management Page](https://console.cloud.google.com/cloud-resource-manager).
+
 ### [hw3 and after] Request GPU quotas
+Google Cloud Platform requires you to request GPU quotas before you can create virtual machines with GPUs. Quota requests have to be done
+through the [Quotas Page](https://console.cloud.google.com/iam-admin/quotas).
 
-You can request GPU quotas on the [Quotas Page](https://console.cloud.google.com/iam-admin/quotas).
-See [guide](https://cloud.google.com/compute/quotas) provided by Google if you run into any difficulties.
-
-Two types of quotas are needed throughout the course:
+You need two types of quotas throughout the course:
 * `GPUs (all regions)`
-* `Nvidia K80 GPUs` at location `us-west1`
+* `NVIDIA K80 GPUs` at location `us-west1`
+and you need at least 4 for both of them.
 
-You will need at least 4 for both quotas. You will not be charged for requesting quotas.
+To request GPU quotas:
+1. Go to [Quotas Page](https://console.cloud.google.com/iam-admin/quotas).
+2. Click on the drop-down box under `Metric` and type "GPU" in the search bar. Check <br> `GPUs (all regions)` and `NVIDIA K80 GPUs`.
+3. Click on the drop-down box under `Location` and check `Global` and `us-west1`.
+4. You will find the two quotas needed for the course appearing on the page. Check both of them.
+5. Click `EDIT QUOTAS` button on top of the page.
+6. Fill the quota request form to request at least 4 quotas for both items.
+
+You will not be charged for requesting quotas.
 It can take up to 48 hours to process your request, so we suggest requesting your quotas as early as possible.
 
 ## Install Google Cloud SDK on your local machine
@@ -149,7 +158,7 @@ We manage to find this VS Code extension that can help you edit your remote file
 
 ### Download VS Code and install Remote VSCode extension
 
-VS Code can be downloaded from VS Code's [Official Website](https://code.visualstudio.com/), and Remote VSCode extension is [here](https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode). Installation should be straightforward.
+VS Code can be downloaded from it's [Official Website](https://code.visualstudio.com/), and Remote VSCode extension is [here](https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode). Installation should be straightforward.
 
 ### Start VS Code server
 
