@@ -155,6 +155,14 @@ You can use `--recurse` flag to transfer a directory. For example:
 `gcloud compute scp --recurse ./starter_code hw2:~/`  
 will transfer the local `starter_code` folder to your hw2 virtual machine.
 
+### About user names
+
+There is a small bug in the way Google Cloud is configured which in some cases may lead to multiple users being defined in your VM. You can spot this by listing the content of `/home`:
+
+![](gcp/home.png)
+
+Chances are you may not even notice this but if you do not see your files you may simply be in the wrong directory.
+
 ### Other helpful commands
 `gcloud` is powerful and allows you to do about anything about your cloud platform. Here are some useful commands:
 * `gcloud compute instances list` will list all of your VMs
