@@ -145,16 +145,15 @@ It is recommended to use `scp` to transfer files to/from your virtual machine:
 
 To transfer to your VM:
 1. Start a terminal
-2. Run `gcloud compute scp LOCAL_PATH NAME:VM_PATH`, where `LOCAL_PATH` is the path to your local file and `VM_PATH` is the VM destination your file will appear
+2. Run `gcloud compute scp LOCAL_PATH NAME:VM_PATH`, where `LOCAL_PATH` is the path to your local file and `VM_PATH` is the VM destination your file will appear. Remember that NAME is the name of your instance, e.g., `hw2`.
 
 To transfer from your VM:
 1. Start a terminal
-2. Run `gcloud compute scp NAME:VM_PATH LOCAL_PATH`, where `VM_PATH` is the path of file on your VM and  `LOCAL_PATH` is the local destination
+2. Run `gcloud compute scp NAME:VM_PATH LOCAL_PATH`, where `VM_PATH` is the path of file on your VM and `LOCAL_PATH` is the local destination. Remember that NAME is the name of your instance, e.g., `hw2`.
 
 You can use `--recurse` flag to transfer a directory. For example:  
 `gcloud compute scp --recurse ./starter_code hw2:~/`  
 will transfer the local `starter_code` folder to your hw2 virtual machine.
-
 
 ### Other helpful commands
 `gcloud` is powerful and allows you to do about anything about your cloud platform. Here are some useful commands:
@@ -176,13 +175,13 @@ Here we provide a table of specs for each type of virtual machine used for homew
 
 ## Remote Editor
 ---
-It is cumbersome to edit locally and run remotely, if you are not comfortable with command-line editors like `vim` or `emacs`. Typically you would have to manually sync between your local copy and the remote one.
+If you are comfortable with command-line editors like `vim` or `emacs`, you can edit your files remotely in the cloud. If you do not want to use these remote editors, you typically have to manually sync between your local copy and the remote one.
 
-We manage to find this VS Code extension that can help you edit your remote files locally on VS Code. Here we provide a brief tutorial on how to setup your remote editor. It is **not required** to use VS Code for course homework or project.
+We will explain how to setup [VS Code](https://code.visualstudio.com/) (not to be confused with Visual Studio by Microsoft) using a special extension to help you edit your remote files locally. We provide a brief tutorial below on how to setup your remote editor. It is **not required** to use VS Code for course homework or project.
 
 ### Download VS Code and install Remote VSCode extension
 
-VS Code can be downloaded from it's [Official Website](https://code.visualstudio.com/), and Remote VSCode extension is [here](https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode). Installation should be straightforward.
+VS Code can be downloaded from its [official website](https://code.visualstudio.com/). You will need the [Remote VSCode extension](https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode). Installation should be straightforward.
 
 ### Start VS Code server
 
@@ -193,10 +192,12 @@ VS Code can be downloaded from it's [Official Website](https://code.visualstudio
 
 1. Make sure your VS Code server is running.
 2. Start a terminal.
-3. Connect to your VM with: `gcloud compute ssh NAME --ssh-flag="-R 52698:localhost:52698"`
-4. Run `rmate FILENAME` on your VM, where `FILENAME` is path to the file you want to edit.
-5. Find your remote file opened in VS Code.
+3. Connect to your VM with: `gcloud compute ssh NAME --ssh-flag="-R 52698:localhost:52698"`. Remember to replace NAME by the name of your instance.
+4. Run `rmate FILENAME` **on your VM,** where `FILENAME` is path to the file you want to edit. `rmate` should be already installed in your VM.
+5. Magically, find your remote file opened in VS Code.
 
 Note:
 * You can repeat step 4 to open multiple files concurrently.
 * Make sure to save and close your file before disconnecting your VM.
+
+This will greatly simplify the process of reading and modifying source files in the cloud. You now have access to all the functionalities of VS Code without worrying about a slow network connection.
