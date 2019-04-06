@@ -40,9 +40,9 @@ There are ~ 770 different quotas to choose from. To help you find the correct on
 
 ![](gcp/metric.png)
 
-then select `None` and in the search bar enter `GPU`. Check <br>`GPUs (all regions)` and `NVIDIA K80 GPUs`.
+then select `None` and in the search bar enter `GPU`. Select `GPUs (all regions)` and `NVIDIA K80 GPUs`.
 
-Then, click on the drop-down box under `Location` and select <br>`Global` and `us-west1`.
+Then, click on the drop-down box under `Location` and select `Global` and `us-west1`.
 
 You will find the two quotas needed for the course appearing on the page. Select both of them. Make sure you have the right ones!
 
@@ -59,8 +59,9 @@ You will not be charged for requesting quotas. It can take up to 48 hours to pro
 Google Cloud SDK (`gcloud`) is a software package that allows you to manage your GCP projects from your local machine through terminals.
 We are going to use `gcloud` to run scripts that will create the correct virtual machines for you.
 
-`gcloud` can be installed on a variety of operating systems including macOS and Windows.  
-Installation procedures can be found [here](https://cloud.google.com/sdk/docs/downloads-interactive).
+`gcloud` can be installed on a variety of operating systems. [Installation procedures](https://cloud.google.com/sdk/docs/downloads-interactive) are provided for all platforms.
+
+![](gcp/cloud_install.png)
 
 ## Manage virtual machine
 ---
@@ -95,7 +96,11 @@ To start a virtual machine:
 
 or through [Compute Page](https://console.cloud.google.com/compute/).
 
+![](gcp/compute_page.png)
+
 **Billing starts now!!!**
+
+From the [Compute Page](https://console.cloud.google.com/compute/), you can start, stop your instance and check its current status.
 
 ### Log into your virtual machine
 You can only log into your VM after it is started.
@@ -104,9 +109,12 @@ To log into your virtual machine
 1. Start a terminal
 2. Run `gcloud compute ssh NAME`
 
-or through [Compute Page](https://console.cloud.google.com/compute/).
+or through [Compute Page](https://console.cloud.google.com/compute/). Click on SSH
 
-You might need to wait for a while if you see the following message. It's likely we are installing necessary packages for the homework/project and disabled ssh.
+![](gcp/ssh.png)
+
+You might need to wait for a while if you see the following message. It's likely we are installing necessary packages for the homework/project; while this is happening ssh is disabled.
+
 ```
 ssh: connect to host 35.197.115.51 port 22: Connection refused
 ERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [255].
