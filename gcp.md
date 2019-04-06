@@ -26,7 +26,11 @@ Do not click on `Manage Quotas`. Enter a project name and click `Create`.
 
 ### [hw3 and after] Request GPU quotas
 
-This step is not needed for hw1 and hw2, but is required to be able to reserve GPUs. To use GPUs, Google Cloud Platform requires you to request **GPU quotas**. Quota requests have to be done through the [quota page](https://console.cloud.google.com/iam-admin/quotas).
+This step is not needed for hw1 and hw2, but is required to be able to reserve GPUs. To use GPUs, Google Cloud Platform requires you to request **GPU quotas**. Quota requests have to be done through the [quota page](https://console.cloud.google.com/iam-admin/quotas). Make sure you have the right project selected (it's shown at the top)
+
+![](gcp/project_name.png)
+
+My project is called `CME213 Spring 2019`.
 
 You need two types of quotas for this the course:
 * `GPUs (all regions)`
