@@ -36,7 +36,7 @@ You need two types of quotas for this the course:
 * `GPUs (all regions)`
 * `NVIDIA K80 GPUs` at location `us-west1` and you need at least **4** for both of them.
 
-You have ~ 770 different quotas. To help you find the correct ones, click on Metric from the [quota page](https://console.cloud.google.com/iam-admin/quotas):
+There are ~ 770 different quotas to choose from. To help you find the correct ones, click on Metric from the [quota page](https://console.cloud.google.com/iam-admin/quotas):
 
 ![](gcp/metric.png)
 
