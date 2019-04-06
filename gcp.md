@@ -28,7 +28,7 @@ You need two types of quotas throughout the course:
 and you need at least 4 for both of them.
 
 To request GPU quotas:
-![quota](quota.png)
+![quota](/gcp/quota.png)
 1. Go to [Quotas Page](https://console.cloud.google.com/iam-admin/quotas) (picture above).
 2. Click on the drop-down box under `Metric` and type "GPU" in the search bar. Check <br> `GPUs (all regions)` and `NVIDIA K80 GPUs`.
 3. Click on the drop-down box under `Location` and check `Global` and `us-west1`.
