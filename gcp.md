@@ -66,7 +66,8 @@ We are going to use `gcloud` to run scripts that will create the correct virtual
 ## Manage virtual machine
 ---
 
-You should use separate virtual machines for different homework and project. Environment is setup for each virtual machine by the script we provide.
+You should use separate virtual machines for different homework and project. 
+Environment is setup for each virtual machine by the script `create_vm.sh` we provide with each starer code.
 
 ### Create your virtual machine
 1. Start a terminal
