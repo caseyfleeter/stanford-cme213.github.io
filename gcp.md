@@ -63,15 +63,37 @@ We are going to use `gcloud` to run scripts that will create the correct virtual
 
 ![](gcp/cloud_install.png)
 
-## Manage virtual machine
+## Manage your virtual machines
 ---
 
-You should use separate virtual machines for different homework and project. 
-Environment is setup for each virtual machine by the script `create_vm.sh` we provide with each starer code.
+Each virtual machine can be configured with access to different resources, for example multicore CPU only, or 1 GPU, or 4 GPUs. When a VM is created, you can install different software (compilers, libraries, etc) as needed. For simplicity, we provide scripts for each homework that will create an appropriate VM specific to this homework. The script is named `./create_vm.sh` and can be found in the directory `starter_code` for each homework.
 
-### Create your virtual machine
+Additional scripts can be found under `Code/`. For example, [create_vm_openmp.sh](Code/create_vm_openmp.sh) creates a multicore VM suitable to test openmp. When running this script you will get the following output:
+
+```
+$ ./create_vm_openmp.sh 
+Updated property [compute/zone].
+Created [https://www.googleapis.com/compute/v1/projects/cme213-spring-2019/zones/us-west1-b/instances/omp].
+NAME  ZONE        MACHINE_TYPE  PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS
+omp   us-west1-b  n1-highcpu-8               10.138.0.3   35.230.26.234  RUNNING
+Installing necessary libraries. You will be able to log into the VM after several minutes with:
+gcloud compute ssh omp
+```
+
+This VM is running Linux with Ubuntu 16.04.6. Any package working under Ubuntu can be installed on the VM.
+
+This script is similar to the one used for `hw2`.
+
+Note that as soon as you run the script the instance is created and is running. **Billing has started!!!** 
+
+You can check and manage your instances on the [VM instances](https://console.cloud.google.com/compute/instances) page. You can stop your instance there. But wait a few minutes that the software has finished installing.
+
+### Create your virtual machine for homework assignments
+
+The general process to create a virtual machine for a homework is:
+
 1. Start a terminal
-2. `cd` to your starter code directory 
+2. `cd` to your starter code directory for the corresponding homework.
 3. Run `./create_vm.sh`
 
 You will see something like this if success
@@ -85,8 +107,6 @@ gcloud compute ssh hw2
 ```
 
 You should remember the name of your VM (`hw2` in this case) and use it for `NAME` in the commands below.
-
-**Billing starts now!!!**
 
 ### Start your virtual machine
 Your virtual machine should start automatically after you created it. However you will need to manually start your machine if you stopped it.  
