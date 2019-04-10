@@ -27,6 +27,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Homework
 
+* [Google Cloud Platform Setup](./gcp.html)
 * [Homework 1](Homework/hw1.pdf) and [starter code](Homework/code_hw1.zip)
 
 ### Reading and links
