@@ -27,8 +27,14 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Homework
 
-* [Google Cloud Platform Setup](./gcp.html)
 * [Homework 1](Homework/hw1.pdf) and [starter code](Homework/code_hw1.zip)
+
+### Google Cloud Platform 
+* [Google Cloud Platform setup instructions](./gcp.html)
+* [VM instances information page](https://console.cloud.google.com/compute)
+* [Billing page](https://console.cloud.google.com/billing)
+* [GCP dashboard](https://console.cloud.google.com/home)
+* [OpenMP VM script](Code/create_vm_openmp.sh)
 
 ### Reading and links
 
@@ -46,15 +52,15 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [Parallel computing, threads](Lecture Notes/Lecture_02.pdf)
 * [Race condition, mutex](Lecture Notes/Lecture_03.pdf)
 
-### Tutorial notes
-
-* [C++ Refresher Session](Tutorial Notes/Tutorial_01.pdf) and [code](Tutorial Notes/code.zip)
-
 ### Computer code
 
 * [C++ standard library and lambda functions](Code/ex1_transform.cpp), and [solution](Code/ex1_transform_solution.cpp) 
 * [Threads](Code/pthread.zip)
 * [Mutex](Code/mutex.zip)
+
+### Tutorial notes
+
+* [C++ Refresher Session](Tutorial Notes/Tutorial_01.pdf) and [code](Tutorial Notes/code.zip)
 
 ### Course Schedule
 
