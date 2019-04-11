@@ -28,6 +28,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 ### Homework
 
 * [Homework 1](Homework/hw1.pdf) and [starter code](Homework/code_hw1.zip)
+* [Homework 2](Homework/hw2.pdf), [Radix Sort Tutorial](Homework/RadixSortTutorial.pdf), and [starter code](Homework/code_hw2.zip)
 
 ### Google Cloud Platform 
 * [Google Cloud Platform setup instructions](./gcp.html)
