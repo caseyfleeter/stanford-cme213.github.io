@@ -4,6 +4,26 @@ title: Google Cloud Platform Setup
 description: Guides to setup Google Cloud Platform (GCP) for course homework and project.
 ---
 
+## Cheat sheet
+
+[Compute Page](https://console.cloud.google.com/compute/)
+
+[Billing page](https://console.cloud.google.com/billing)
+
+`gcloud compute ssh NAME`
+
+`gcloud compute scp LOCAL_PATH NAME:VM_PATH`
+
+`gcloud compute scp NAME:VM_PATH LOCAL_PATH`
+
+`gcloud compute scp --recurse` to copy directories
+
+For remote editing with VS Code:
+
+`gcloud compute ssh NAME --ssh-flag="-R 52698:localhost:52698"`
+
+`rmate FILENAME`
+
 ## Before You Start
 ---
 
@@ -26,7 +46,9 @@ Do not click on `Manage Quotas`. Enter a project name and click `Create`.
 
 ### [hw3 and after] Request GPU quotas
 
-This step is not needed for hw1 and hw2, but is required to be able to reserve GPUs. To use GPUs, Google Cloud Platform requires you to request **GPU quotas**. Quota requests have to be done through the [quota page](https://console.cloud.google.com/iam-admin/quotas). Make sure you have the right project selected (it's shown at the top)
+This step is not needed for hw1 and hw2, but is required to be able to reserve GPUs. You will need to **wait a few hours** before doing this step after creating a new project. It takes time for the web interface to populate all the required quota options.
+
+To use GPUs, Google Cloud Platform requires you to request **GPU quotas**. Quota requests have to be done through the [quota page](https://console.cloud.google.com/iam-admin/quotas). Make sure you have the right project selected (it's shown at the top)
 
 ![](gcp/project_name.png)
 
