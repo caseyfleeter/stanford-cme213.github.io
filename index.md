@@ -54,13 +54,15 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [Parallel computing, threads](Lecture Notes/Lecture_02.pdf)
 * [Race condition, mutex](Lecture Notes/Lecture_03.pdf)
 * [OpenMP, for loops](Lecture Notes/Lecture_04.pdf)
+* [OpenMP, reduction](Lecture Notes/Lecture_05.pdf)
 
 ### Computer code
 
 * [C++ standard library and lambda functions](Code/ex1_transform.cpp), and [solution](Code/ex1_transform_solution.cpp) 
 * [Threads](Code/pthread.zip)
 * [Mutex](Code/mutex.zip)
-* [OpenMP](Code/omp.zip)
+* [OpenMP intro](Code/omp1.zip)
+* [OpenMP reduction](Code/omp2.zip)
 
 ### Tutorial notes
 
