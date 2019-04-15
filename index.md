@@ -39,6 +39,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Reading and links
 
+* [OpenMP API Syntax Reference Guide](https://www.openmp.org/wp-content/uploads/OpenMPRef-5.0-111802-web.pdf)
 * [C++ reference](https://en.cppreference.com/w/cpp)
 * [LLNL tutorial on Pthreads](https://computing.llnl.gov/tutorials/pthreads/)
 * [C++ threads](http://www.cplusplus.com/reference/thread/thread/)
