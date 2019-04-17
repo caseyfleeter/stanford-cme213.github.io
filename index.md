@@ -39,11 +39,14 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Reading and links
 
+* [A novel sorting algorithm for many-core architectures based on adaptive bitonic sort
+](https://ieeexplore.ieee.org/abstract/document/6267838)
+* [Adaptive Bitonic Sorting](https://pdfs.semanticscholar.org/bcdf/c4e40c79547c9daf89dada4e1c23056871cb.pdf)
 * [OpenMP API Syntax Reference Guide](https://www.openmp.org/wp-content/uploads/OpenMPRef-5.0-111802-web.pdf)
-* [C++ reference](https://en.cppreference.com/w/cpp)
-* [LLNL tutorial on Pthreads](https://computing.llnl.gov/tutorials/pthreads/)
 * [C++ threads](http://www.cplusplus.com/reference/thread/thread/)
 * [Simple examples of C++ multithreading](https://www.geeksforgeeks.org/multithreading-in-cpp/)
+* [LLNL tutorial on Pthreads](https://computing.llnl.gov/tutorials/pthreads/)
+* [C++ reference](https://en.cppreference.com/w/cpp)
 * [CUDA Programming Guides and References](http://docs.nvidia.com/cuda/index.html)
 * [CUDA C Programming Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
 * [CUDA C Best Practices Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf)
