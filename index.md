@@ -39,6 +39,11 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Reading and links
 
+* [K80 data sheet](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/tesla-product-literature/TeslaK80-datasheet.pdf)
+* [CUDA Programming Guides and References](http://docs.nvidia.com/cuda/index.html)
+* [CUDA C Programming Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
+* [CUDA C Best Practices Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf)
+* [CUDA compiler](https://docs.nvidia.com/cuda/pdf/CUDA_Compiler_Driver_NVCC.pdf)
 * [A novel sorting algorithm for many-core architectures based on adaptive bitonic sort
 ](https://ieeexplore.ieee.org/abstract/document/6267838)
 * [Adaptive Bitonic Sorting](https://pdfs.semanticscholar.org/bcdf/c4e40c79547c9daf89dada4e1c23056871cb.pdf)
@@ -47,9 +52,6 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [Simple examples of C++ multithreading](https://www.geeksforgeeks.org/multithreading-in-cpp/)
 * [LLNL tutorial on Pthreads](https://computing.llnl.gov/tutorials/pthreads/)
 * [C++ reference](https://en.cppreference.com/w/cpp)
-* [CUDA Programming Guides and References](http://docs.nvidia.com/cuda/index.html)
-* [CUDA C Programming Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
-* [CUDA C Best Practices Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf)
 
 ### Lecture notes
 
