@@ -38,21 +38,6 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [GCP dashboard](https://console.cloud.google.com/home)
 * [OpenMP VM script](Code/create_vm_openmp.sh)
 
-### Reading and links
-
-* [K80 data sheet](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/tesla-product-literature/TeslaK80-datasheet.pdf)
-* [CUDA Programming Guides and References](http://docs.nvidia.com/cuda/index.html)
-* [CUDA C Programming Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
-* [CUDA C Best Practices Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf)
-* [CUDA compiler](https://docs.nvidia.com/cuda/pdf/CUDA_Compiler_Driver_NVCC.pdf)
-* [A novel sorting algorithm for many-core architectures based on adaptive bitonic sort](https://ieeexplore.ieee.org/abstract/document/6267838)
-* [Adaptive Bitonic Sorting](https://pdfs.semanticscholar.org/bcdf/c4e40c79547c9daf89dada4e1c23056871cb.pdf)
-* [OpenMP API Syntax Reference Guide](https://www.openmp.org/wp-content/uploads/OpenMPRef-5.0-111802-web.pdf)
-* [C++ threads](http://www.cplusplus.com/reference/thread/thread/)
-* [Simple examples of C++ multithreading](https://www.geeksforgeeks.org/multithreading-in-cpp/)
-* [LLNL tutorial on Pthreads](https://computing.llnl.gov/tutorials/pthreads/)
-* [C++ reference](https://en.cppreference.com/w/cpp)
-
 ### Lecture notes
 
 * [Introduction and syllabus](Lecture Notes/Lecture_01.pdf)
@@ -73,6 +58,21 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [Threads](Code/pthread.zip)
 * [C++ standard library and lambda functions](Code/ex1_transform.cpp), and [solution](Code/ex1_transform_solution.cpp) 
 
+### Reading and links
+
+* [K80 data sheet](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/tesla-product-literature/TeslaK80-datasheet.pdf)
+* [CUDA Programming Guides and References](http://docs.nvidia.com/cuda/index.html)
+* [CUDA C Programming Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
+* [CUDA C Best Practices Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf)
+* [CUDA compiler](https://docs.nvidia.com/cuda/pdf/CUDA_Compiler_Driver_NVCC.pdf)
+* [A novel sorting algorithm for many-core architectures based on adaptive bitonic sort](https://ieeexplore.ieee.org/abstract/document/6267838)
+* [Adaptive Bitonic Sorting](https://pdfs.semanticscholar.org/bcdf/c4e40c79547c9daf89dada4e1c23056871cb.pdf)
+* [OpenMP API Syntax Reference Guide](https://www.openmp.org/wp-content/uploads/OpenMPRef-5.0-111802-web.pdf)
+* [C++ threads](http://www.cplusplus.com/reference/thread/thread/)
+* [Simple examples of C++ multithreading](https://www.geeksforgeeks.org/multithreading-in-cpp/)
+* [LLNL tutorial on Pthreads](https://computing.llnl.gov/tutorials/pthreads/)
+* [C++ reference](https://en.cppreference.com/w/cpp)
+
 ### Tutorial notes
 
 * [C++ Refresher Session](Tutorial Notes/Tutorial_01.pdf) and [code](Tutorial Notes/code.zip)
@@ -90,7 +90,7 @@ Schedules are tentative and will be updated throughout the quarter.
 | 2             | Mon, April 8         | Synchronization                    |                            |
 | 2             | Wed, April 10        | OpenMP 1: For loops                | HW1 due <br> HW2 out       |
 | 3             | Mon, April 15        | OpenMP 2: Reduction                |                            |
-| 3             | Wed, April 17        | OpenMP 3: Shared Memory Sorting    |                            |
+| 3             | Wed, April 17        | OpenMP 3: Shared memory sorting    |                            |
 | 4             | Mon, April 22        | CUDA 1                             | HW2 due                    |
 | 4             | Wed, April 24        | CUDA 2                             | HW3 out                    |
 | 5             | Mon, April 29        | CUDA 3, matrix transpose           |                            |
