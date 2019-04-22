@@ -31,6 +31,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [Homework 2](Homework/hw2.pdf), [Radix Sort Tutorial](Homework/RadixSortTutorial.pdf), and [starter code](Homework/code_hw2.zip)
 
 ### Google Cloud Platform 
+* [CUDA/Hw3 VM script](Code/create_vm_hw3.sh)
 * [Google Cloud Platform setup instructions](./gcp.html)
 * [VM instances information page](https://console.cloud.google.com/compute)
 * [Billing page](https://console.cloud.google.com/billing)
@@ -44,8 +45,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [CUDA C Programming Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
 * [CUDA C Best Practices Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf)
 * [CUDA compiler](https://docs.nvidia.com/cuda/pdf/CUDA_Compiler_Driver_NVCC.pdf)
-* [A novel sorting algorithm for many-core architectures based on adaptive bitonic sort
-](https://ieeexplore.ieee.org/abstract/document/6267838)
+* [A novel sorting algorithm for many-core architectures based on adaptive bitonic sort](https://ieeexplore.ieee.org/abstract/document/6267838)
 * [Adaptive Bitonic Sorting](https://pdfs.semanticscholar.org/bcdf/c4e40c79547c9daf89dada4e1c23056871cb.pdf)
 * [OpenMP API Syntax Reference Guide](https://www.openmp.org/wp-content/uploads/OpenMPRef-5.0-111802-web.pdf)
 * [C++ threads](http://www.cplusplus.com/reference/thread/thread/)
@@ -61,9 +61,11 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [OpenMP, for loops](Lecture Notes/Lecture_04.pdf)
 * [OpenMP, reduction](Lecture Notes/Lecture_05.pdf)
 * [OpenMP, sort](Lecture Notes/Lecture_06.pdf)
+* [CUDA, introduction](Lecture Notes/Lecture_07.pdf)
 
 ### Computer code
 
+* [CUDA 1](Code/cuda1.zip)
 * [OpenMP sort](Code/sort.zip)
 * [OpenMP reduction](Code/omp2.zip)
 * [OpenMP intro](Code/omp1.zip)
