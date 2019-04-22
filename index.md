@@ -84,12 +84,11 @@ Schedules are tentative and will be updated throughout the quarter.
 | 1             | Mon, April 1         | Introduction and syllabus          |                            |
 | 1             | Wed, April 3         | Parallelism, Pthreads              | HW1 out                    |
 | 2             | Mon, April 8         | Synchronization                    |                            |
-| 2             | Wed, April 10        | OpenMP 1                           | HW1 due <br> HW2 out       |
-| 3             | Mon, April 15        | OpenMP 2                           |                            |
-| 3             | Wed, April 17        | Colfax 1                           |                            |
-| 3             | Fri, April 19        | Colfax 2                           | HW3 out                    |
+| 2             | Wed, April 10        | OpenMP 1: For loops                | HW1 due <br> HW2 out       |
+| 3             | Mon, April 15        | OpenMP 2: Reduction                |                            |
+| 3             | Wed, April 17        | OpenMP 3: Shared Memory Sorting    |                            |
 | 4             | Mon, April 22        | CUDA 1                             | HW2 due                    |
-| 4             | Wed, April 24        | CUDA 2                             |                            |
+| 4             | Wed, April 24        | CUDA 2                             | HW3 out                    |
 | 5             | Mon, April 29        | CUDA 3, matrix transpose           |                            |
 | 5             | Wed, May 1           | Lecture on homework 4              | HW4 out <br> HW3 due       |
 | 6             | Mon, May 6           | Reduction                          |                            |
