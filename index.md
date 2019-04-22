@@ -31,12 +31,12 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [Homework 2](Homework/hw2.pdf), [Radix Sort Tutorial](Homework/RadixSortTutorial.pdf), and [starter code](Homework/code_hw2.zip)
 
 ### Google Cloud Platform 
-* [CUDA/Hw3 VM script](Code/create_vm_hw3.sh)
+* [Hw3 VM script](Code/create_vm_hw3.sh)
+* [OpenMP VM script](Code/create_vm_openmp.sh)
 * [Google Cloud Platform setup instructions](./gcp.html)
 * [VM instances information page](https://console.cloud.google.com/compute)
 * [Billing page](https://console.cloud.google.com/billing)
 * [GCP dashboard](https://console.cloud.google.com/home)
-* [OpenMP VM script](Code/create_vm_openmp.sh)
 
 ### Lecture notes
 
