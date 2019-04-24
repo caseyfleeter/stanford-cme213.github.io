@@ -222,6 +222,7 @@ Here we provide a table of specs for each type of virtual machine used for homew
 |           | CPU cores | Memory     | Disk        | GPU type    | GPU number | Hourly cost |
 | --------- | :-------: | :--------: | :---------: | :---------: | :--------: | :---------: |
 | HW2       | 8         | 7.2GB      | 10GB        | -           | -          | $0.199      |
+| HW3       | 2         | 7.5GB      | 20GB        | NVIDIA K80  | 1          | $0.383      |
 
 
 ## Remote Editor

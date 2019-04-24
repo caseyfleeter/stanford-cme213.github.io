@@ -29,7 +29,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 * [Homework 1](Homework/hw1.pdf) and [starter code](Homework/code_hw1.zip)
 * [Homework 2](Homework/hw2.pdf), [Radix Sort Tutorial](Homework/RadixSortTutorial.pdf), and [starter code](Homework/code_hw2.zip)
-* [Homework 3](Homework/hw3.pdf), and [starter code](Homework/code_hw3.zip)
+* [Homework 3](Homework/hw3.pdf) and [starter code](Homework/code_hw3.zip)
 
 ### Google Cloud Platform 
 * [Hw3 VM script](Code/create_vm_hw3.sh)
@@ -86,7 +86,7 @@ Schedules are tentative and will be updated throughout the quarter.
 
 [See detailed schedule](./schedule.html)
 
-| Week          | Date                 | Topics                             | Homework/Project/Exam      |
+| Week          | Date                 | Topics                             | Homework/Project           |
 | :-----------: | -------------------- | ---------------------------------- | -------------------------- |
 | 1             | Mon, April 1         | Introduction and syllabus          |                            |
 | 1             | Wed, April 3         | Parallelism, Pthreads              | HW1 out                    |
