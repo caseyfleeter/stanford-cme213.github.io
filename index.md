@@ -48,10 +48,12 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [OpenMP, reduction](Lecture Notes/Lecture_05.pdf)
 * [OpenMP, sort](Lecture Notes/Lecture_06.pdf)
 * [CUDA, introduction](Lecture Notes/Lecture_07.pdf)
+* [CUDA, device memory](Lecture Notes/Lecture_08.pdf)
 
 ### Computer code
 
 * [CUDA 1](Code/cuda1.zip)
+* [CUDA 2](Code/cuda2.zip)
 * [OpenMP sort](Code/sort.zip)
 * [OpenMP reduction](Code/omp2.zip)
 * [OpenMP intro](Code/omp1.zip)
