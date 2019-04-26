@@ -63,6 +63,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Reading and links
 
+* [K80 device info](k80.md)
 * [K80 data sheet](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/tesla-product-literature/TeslaK80-datasheet.pdf)
 * [CUDA Programming Guides and References](http://docs.nvidia.com/cuda/index.html)
 * [CUDA C Programming Guide](http://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
