@@ -66,6 +66,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 * [CUDA occupancy calculator](Reading/CUDA_Occupancy_Calculator.xls)
 * [Kepler GK110/210 whitepaper](Reading/NVIDIA_Kepler_GK110_GK210_Architecture_Whitepaper.pdf) (the K80 uses the GK210 chip)
+* [Data sheet for Tesla GPUs](https://en.wikipedia.org/wiki/Nvidia_Tesla). **Tesla** is NVIDIA's brand name for their products targeting stream processing or general-purpose graphics processing units (GPGPU).
 * [K80 device info](k80.md)
 * [K80 data sheet](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/tesla-product-literature/TeslaK80-datasheet.pdf)
 * [CUDA Programming Guides and References](http://docs.nvidia.com/cuda/index.html)
