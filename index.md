@@ -30,6 +30,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [Homework 1](Homework/hw1.pdf) and [starter code](Homework/code_hw1.zip)
 * [Homework 2](Homework/hw2.pdf), [Radix Sort Tutorial](Homework/RadixSortTutorial.pdf), and [starter code](Homework/code_hw2.zip)
 * [Homework 3](Homework/hw3.pdf) and [starter code](Homework/code_hw3.zip)
+* [Homework 4](Homework/hw4.pdf) and [starter code](Homework/code_hw4.zip)
 
 ### Google Cloud Platform 
 * [Hw3 VM script](Code/create_vm_hw3.sh)
@@ -50,6 +51,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [CUDA, introduction](Lecture Notes/Lecture_07.pdf)
 * [CUDA, device memory](Lecture Notes/Lecture_08.pdf)
 * [CUDA, matrix transpose](Lecture Notes/Lecture_09.pdf)
+* [CUDA, homework 4, finite-difference](Lecture Notes/Lecture_10.pdf)
 
 ### Computer code
 
@@ -64,6 +66,9 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Reading and links
 
+* [CUDA occupancy calculator](Reading/CUDA_Occupancy_Calculator.xls)
+* [Kepler GK110/210 whitepaper](Reading/NVIDIA_Kepler_GK110_GK210_Architecture_Whitepaper.pdf) (the K80 uses the GK210 chip)
+* [Data sheet for Tesla GPUs](https://en.wikipedia.org/wiki/Nvidia_Tesla). **Tesla** is NVIDIA's brand name for their products targeting stream processing or general-purpose graphics processing units (GPGPU).
 * [K80 device info](k80.md)
 * [K80 data sheet](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/tesla-product-literature/TeslaK80-datasheet.pdf)
 * [CUDA Programming Guides and References](http://docs.nvidia.com/cuda/index.html)
