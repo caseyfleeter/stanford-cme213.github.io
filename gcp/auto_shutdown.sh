@@ -6,7 +6,7 @@ IDLE_THRE=30
 
 while [ 1 ]
 do
-    if [[ -z `who` ]]; then
+    if [[ -z `who | grep -v tmux` ]]; then
         ((IDLE++))
     else
         IDLE=0
