@@ -52,11 +52,14 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [CUDA, device memory](Lecture Notes/Lecture_08.pdf)
 * [CUDA, matrix transpose](Lecture Notes/Lecture_09.pdf)
 * [CUDA, homework 4, finite-difference](Lecture Notes/Lecture_10.pdf)
+* [CUDA, team activity, reduction](Lecture Notes/Lecture_11.pdf)
 
 ### Computer code
 
+* [generate_sequence](Code/generate_sequence.cpp)
 * [CUDA 1](Code/cuda1.zip)
 * [CUDA 2](Code/cuda2.zip)
+* [CUDA 3, reduction](Code/cuda3.zip)
 * [OpenMP sort](Code/sort.zip)
 * [OpenMP reduction](Code/omp2.zip)
 * [OpenMP intro](Code/omp1.zip)
