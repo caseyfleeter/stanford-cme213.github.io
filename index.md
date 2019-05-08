@@ -53,9 +53,11 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [CUDA, matrix transpose](Lecture Notes/Lecture_09.pdf)
 * [CUDA, homework 4, finite-difference](Lecture Notes/Lecture_10.pdf)
 * [CUDA, team activity, reduction](Lecture Notes/Lecture_11.pdf)
+* [CUDA, Thrust](Lecture Notes/Lecture_12.pdf)
 
 ### Computer code
 
+* [Thrust](Code/thrust.zip)
 * [generate_sequence](Code/generate_sequence.cpp)
 * [CUDA 1](Code/cuda1.zip)
 * [CUDA 2](Code/cuda2.zip)
@@ -69,6 +71,12 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Reading and links
 
+* [Thrust programming guide](https://docs.nvidia.com/cuda/thrust/index.html)
+* [Thrust examples](https://github.com/thrust/thrust/tree/master/examples)
+* [Thrust download page](https://developer.nvidia.com/thrust)
+* [Thrust github page](https://thrust.github.io/)
+* [Thrust get started guide](https://github.com/thrust/thrust/wiki/Quick-Start-Guide)
+* [Presentations and slides on Thrust](https://github.com/thrust/thrust/downloads)
 * [CUDA occupancy calculator](Reading/CUDA_Occupancy_Calculator.xls)
 * [Kepler GK110/210 whitepaper](Reading/NVIDIA_Kepler_GK110_GK210_Architecture_Whitepaper.pdf) (the K80 uses the GK210 chip)
 * [Data sheet for Tesla GPUs](https://en.wikipedia.org/wiki/Nvidia_Tesla). **Tesla** is NVIDIA's brand name for their products targeting stream processing or general-purpose graphics processing units (GPGPU).
