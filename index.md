@@ -55,6 +55,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [CUDA, homework 4, finite-difference](Lecture Notes/Lecture_10.pdf)
 * [CUDA, team activity, reduction](Lecture Notes/Lecture_11.pdf)
 * [CUDA, Thrust](Lecture Notes/Lecture_12.pdf)
+* [Final project](Lecture Notes/Lecture_13.pdf)
 
 ### Computer code
 
