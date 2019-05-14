@@ -75,6 +75,8 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Reading and links
 
+* [OpenACC](https://www.openacc.org/)
+* [Compilers that support OpenACC](https://www.openacc.org/tools)
 * [Thrust programming guide](https://docs.nvidia.com/cuda/thrust/index.html)
 * [Thrust examples](https://github.com/thrust/thrust/tree/master/examples)
 * [Thrust download page](https://developer.nvidia.com/thrust)
