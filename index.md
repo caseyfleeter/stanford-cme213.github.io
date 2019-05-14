@@ -33,6 +33,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [Homework 4](Homework/hw4.pdf) and [starter code](Homework/code_hw4.zip)
 * [Homework 5](Homework/hw5.pdf) and [starter code](Homework/code_hw5.zip)
 * [Final Project Part 1](Homework/FinalProjectPart1.pdf)
+* [Final Project Part 2](Homework/FinalProjectPart2.pdf) and [starter code](Homework/project.zip)
 
 ### Google Cloud Platform 
 * [Hw3 VM script](Code/create_vm_hw3.sh)
