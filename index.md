@@ -57,6 +57,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [CUDA, team activity, reduction](Lecture Notes/Lecture_11.pdf)
 * [CUDA, Thrust](Lecture Notes/Lecture_12.pdf)
 * [Final project](Lecture Notes/Lecture_13.pdf)
+* [NVIDIA OpenACC](Lecture Notes/Lecture_14_NVIDIA_OpenACC.pdf)
 
 ### Computer code
 
