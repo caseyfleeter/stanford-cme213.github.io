@@ -112,6 +112,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 ### Tutorial notes
 
 * [C++ Refresher Session](Tutorial Notes/Tutorial_01.pdf) and [code](Tutorial Notes/code.zip)
+* [CUDA Profiling Session](Tutorial Notes/Tutorial_02.pdf) and [code](Code/cuda3.zip)
 
 ### Course Schedule
 
