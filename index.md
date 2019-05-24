@@ -33,8 +33,10 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [Homework 4](Homework/hw4.pdf) and [starter code](Homework/code_hw4.zip)
 * [Homework 5](Homework/hw5.pdf) and [starter code](Homework/code_hw5.zip)
 * [Final Project Part 1](Homework/FinalProjectPart1.pdf)
+* [Final Project Part 2](Homework/FinalProjectPart2.pdf) and [starter code](Homework/code_project.zip)
 
 ### Google Cloud Platform 
+* [MPI 8 vCPUs](Code/create_vm_mpi_8.sh)
 * [Hw3 VM script](Code/create_vm_hw3.sh)
 * [OpenMP VM script](Code/create_vm_openmp.sh)
 * [Google Cloud Platform setup instructions](./gcp.html)
@@ -57,9 +59,14 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [CUDA, team activity, reduction](Lecture Notes/Lecture_11.pdf)
 * [CUDA, Thrust](Lecture Notes/Lecture_12.pdf)
 * [Final project](Lecture Notes/Lecture_13.pdf)
+* [NVIDIA OpenACC](Lecture Notes/Lecture_14_NVIDIA_OpenACC.pdf)
+* [NVIDIA Optimizations](Lecture Notes/Lecture_15_CUDA_Optimization.pdf)
+* [NVIDIA Profiler NVVP](Lecture Notes/Lecture_16_Profiler_Optimizing_GPU.pdf)
+* [MPI basics, collective communication](Lecture Notes/Lecture_17.pdf)
 
 ### Computer code
 
+* [MPI](Code/mpi.zip)
 * [Thrust](Code/thrust.zip)
 * [generate_sequence](Code/generate_sequence.cpp)
 * [CUDA 1](Code/cuda1.zip)
@@ -74,6 +81,11 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 
 ### Reading and links
 
+* [OpenACC](https://www.openacc.org/)
+* [Compilers that support OpenACC](https://www.openacc.org/tools)
+* [OpenACC Specification (ver. 2.7 November 2018)](https://www.openacc.org/sites/default/files/inline-files/OpenACC.2.6.final.pdf)
+* [OpenACC Programming and Best Practices Guide](http://www.openacc.org/sites/default/files/OpenACC_Programming_Guide_0.pdf)
+* [OpenACC 2.7 API Reference Card](https://www.pgroup.com/lit/literature/openacc-api-guide-2.7.pdf)
 * [Thrust programming guide](https://docs.nvidia.com/cuda/thrust/index.html)
 * [Thrust examples](https://github.com/thrust/thrust/tree/master/examples)
 * [Thrust download page](https://developer.nvidia.com/thrust)
