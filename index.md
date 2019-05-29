@@ -63,6 +63,7 @@ Pre-requisites include: C programming language and numerical algorithms (solutio
 * [NVIDIA Optimizations](Lecture Notes/Lecture_15_CUDA_Optimization.pdf)
 * [NVIDIA Profiler NVVP](Lecture Notes/Lecture_16_Profiler_Optimizing_GPU.pdf)
 * [MPI basics, collective communication](Lecture Notes/Lecture_17.pdf)
+* [MPI point-to-point communication](Lecture Notes/Lecture_18.pdf)
 
 ### Computer code
 
